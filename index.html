@@ -9,13 +9,18 @@
 body {
     background: #111;
     color: white;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     text-align: center;
     padding: 30px 15px;
 }
 
 h1 {
     font-size: 42px;
+}
+
+.subtitle {
+    color: #aaa;
+    font-size: 18px;
 }
 
 .game {
@@ -26,14 +31,23 @@ h1 {
     border-radius: 15px;
 }
 
+.game h2 {
+    margin-top: 0;
+}
+
 .download {
     display: inline-block;
     background: #00c853;
     color: white;
-    padding: 15px 30px;
+    padding: 15px 35px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
+}
+
+.download:hover {
+    background: #00a844;
 }
 </style>
 </head>
@@ -41,11 +55,12 @@ h1 {
 <body>
 
 <h1>🎮 ULTRA GAMES</h1>
-<p>Игры и файлы</p>
+
+<p class="subtitle">Игры и файлы для скачивания</p>
 
 <div class="game">
-    <h2>ULTRA GAMES</h2>
-    <p>APK файл</p>
+    <h2>🎮 ULTRA GAMES</h2>
+    <p>APK-файл</p>
 
     <a class="download"
        href="https://drive.google.com/file/d/1agI9xRAzmXeZKRqsyv0ws-Z39ana21Jp/view"
@@ -55,10 +70,12 @@ h1 {
 </div>
 
 <div class="game">
-    <h2>Новая игра</h2>
-    <p>Добавь сюда второй файл</p>
+    <h2>🎮 Новая игра</h2>
+    <p>Новый APK-файл</p>
 
-    <a class="download" href="#" target="_blank">
+    <a class="download"
+       href="#"
+       target="_blank">
        Скачать
     </a>
 </div>
